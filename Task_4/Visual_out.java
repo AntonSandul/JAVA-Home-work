@@ -2,12 +2,7 @@ package Task_4;
 
 public class Visual_out {
 
-    /**
-    * Содержит метод для реализации вывода результатов.
-    */
-     /**
-    * отрисовывает карту
-    */
+  
     public static void drawMap(int[][] map){
         int sizeY = map.length;
         int sizeX = map[0].length;
@@ -17,7 +12,7 @@ public class Visual_out {
                 else if(map[i][j] == 0)System.out.print(' ');
                 else if(map[i][j] == -2)System.out.print('S');
                 else if(map[i][j] == -3)System.out.print('F');
-                else if(map[i][j] == -4)System.out.print('@');
+                else if(map[i][j] == -4)System.out.print('#');
                 else System.out.print(" ");
             }
             System.out.println();
